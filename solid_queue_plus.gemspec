@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Enhancements for Rails 8 Solid Queue: retries, notifications, dashboard."
   spec.description   = "Provides retry logic, failure notifications, and a lightweight dashboard for Solid Queue in Rails 8+ applications."
-  spec.homepage      = "https://github.com/yourusername/solid_queue_plus"
+  spec.homepage      = "https://github.com/Sukendhar/solid_queue_plus"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
   spec.metadata["homepage_uri"] = spec.homepage
