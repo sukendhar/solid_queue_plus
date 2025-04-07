@@ -1,0 +1,15 @@
+<h1>SolidQueue Dashboard</h1>
+
+<h2>Queued Jobs</h2>
+<ul>
+  <% @queued_jobs.each do |job| %>
+    <li><%= job.class_name %> - Enqueued at: <%= job.created_at %></li>
+  <% end %>
+</ul>
+
+<h2>Failed Jobs</h2>
+<ul>
+  <% @failed_jobs.each do |job| %>
+    <li><%= job.class_name %> - Error: <%= job.error %></li>
+  <% end %>
+</ul>
